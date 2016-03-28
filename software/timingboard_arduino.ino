@@ -47,6 +47,7 @@ HardwareSerial mySerial = Serial1;
 
 void setup()  
 {
+  long version = 1457968166;
   digitalWrite(resetPin, HIGH);
   delay(200);
   pinMode(resetPin, OUTPUT); 
